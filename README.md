@@ -8,13 +8,15 @@ In IT and Cybersecurity, maintaining an inventory of active network assets is cr
 *   **Error Handling:** Implemented `try/except` blocks to gracefully handle missing files and empty lines.
 *   **Terminal Formatting:** Utilized ANSI escape codes and emojis to colorize the terminal output (Green for Online, Red for Offline) for instant readability.
 
-##  How to Run
-1. Create a file named `host_file.txt` in the same directory as the script and add IP addresses or domains (one per line). Example:
+1. Create a file named `host_file.txt` in the same directory as the script and add IP addresses or domains (one per line). 
+   Example:
    ```text
+   127.0.0.1
    8.8.8.8
    1.1.1.1
    192.168.1.1
-
+   10.0.0.99
+```
 Run This Script.
 
 python host_checking.py
